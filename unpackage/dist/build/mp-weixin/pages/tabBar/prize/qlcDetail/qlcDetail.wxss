@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 布局 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.prizeInfo {
+  padding: 24rpx;
+}
+.prizeInfo > view:nth-child(1) {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #666;
+    font-size: 32rpx;
+    margin-bottom: 36rpx;
+}
+.prizeInfo > view:nth-child(1) > text:last-child {
+      color: #999;
+}
+.prizeInfo .prizeBall {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 12rpx;
+}
+.prizeInfo .prizeBall > view {
+      width: 54rpx;
+      height: 54rpx;
+      border-radius: 50%;
+      margin-right: 20rpx;
+      line-height: 54rpx;
+      text-align: center;
+      border: 1px solid #E73F3F;
+      color: #E73F3F;
+}
+.prizeInfo .prizeBall > view:last-child {
+        border: 1px solid #5C7EE8;
+        color: #5C7EE8;
+}
+.prizeMoney {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 24rpx;
+  background-color: #f2f3f9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.prizeMoney > view {
+    width: 50%;
+}
+.prizeMoney > view > view {
+      padding-left: 56rpx;
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAXVBMVEVHcEzlUD7uYULpWUHpWEHnU0DoVD3oUDXoV0HoVkDnVUDtXUDlUkDpWEDwZELiTUDfST/kT0DxZ0LjT0HqW0LmU0HwZUPyaEPfSEDhS0DoV0HuYkLdRUD0a0PtX0Ju8IxjAAAAE3RSTlMAHdruoTwRB45ecSzHUL/b7rPpxRxQVQAABAlJREFUSMeVl4mOszoMhbOSjbDTFlp4/8e8zkJIoDP/XKvSSCN9Oo597ASEvoWojJINGZ6PgTRSmUqgP4bgmpFte27P5/Phfo8HYZr/ibfNsEE8QzxcvOE3NPZfuDDNth3sI6BAQuz73vyubtiwXWUD6+CdMv4zq0hAA3wIJ3bfJ6J+QCu5bdtdOLHTBL9JVt9YzLZc98bunp2mHn9hm991D3aaavx/2YSu642uWIHeazUd9ArRl+f+oVYDoUedPbt6dl1l0aNvum+iBLTgTQmh0ym7rvM8Zx0zJIe9maXS0iBjjVC8EpydurOjaXKLkAndImvcv5EllFgYFIsrVgjPMzuObYbczy5nK1QDo0icoS1x3cEkoY4eD2nR3EolzPCGUu/vPdbYCnbAXnkc6zAk9u5nSOb0M/DEVHWWM8DzaK/CgX0/OJKHn11QJbSvViLHKO1OfJ2jBiN/4KgLLM1yDnTnTq2/zQJ4yEgalAkXimY5j0F5BKcIFtlib7wbaIVpAoswOesckx7HBQQqkoyVsZCp0cQfmEgOG+asc2THpcXIXE3pWY5ce6OfKcOVpvOcl2sZl4WDre9zRHAl93yMaiM8fcoCu2jE7vPbmIql8fXw1CohiwNDvBhqbiwFO+XD78P9cy50l1eNyJV9SyRDizRYcqrjcVuM2wT7eLVouO6cRnDqa9WLiq01dqd1dWZC5+jyenXotq+4CAeGFS8qaJM96qxw61M+hF8vdN1XTWWOvUE12JfTaMmxrWQSfjm2g7TLXQcn9sVaJ8mNgE2gYpnnzpo8aQeTkqUWHcL6uDZ9h52ZRXsI+2hRU7DTYExqEaUS2b5vIzv2FTtzfn0+NWLlfibCxgMzCIVsDdGGMtdYL5nwhyFV7naCdBCWlYBAAkPwALdY5exHIxOtEe+F2sPOzhzCIOz+xAZ3xp4owBxGMmffCfYDDIllnsxgx8JICvbOd52H064DeBzTMHQu7cR+3I2lT11naKSK1a4zP7dQsIA69iP9AszvQYpxtuto32azwER/1ArCL0DRhIz3uGWRLvdzmsGO4yXlDF32W9+eC9q9Giohz5WT6XYw0Znwxwb/NXu2c+DFIqy8h4bZ7DI2XjcwOEnYmbKGw4hbwIMnZ7vjjhWsvLvXXqtbRDSyn/NlYcjl4k/Hjdsq9Cdju/MpKFQhPJfLPfPzwX508aApZdN9tGQzmLHs8pQq7+4i65vu9RGI6y85L/neONnW3J6AdXl3l7uuYL89PtlVd/lTzseTuVQ+25SzEv/0WG9LO3t2OWcB+qt++0ygZa3KnLvfPhMgdd7frXFkXPPqX983tu7KOoecu1qJv32U9e0p7Hdd/8ePMp895lrWLQxS19bwNYe/5/sf1BjmVdU/BHsAAAAASUVORK5CYII=);
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-size: 42rpx 42rpx;
+}
+.prizeMoney > view > text {
+      font-size: 42rpx;
+      color: #DC504E;
+}
+.tabHeader {
+  width: 100%;
+  background-color: #DC504E;
+  height: 64rpx;
+  line-height: 64rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #fff;
+}
+.prizeSet .tr {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.prizeSet .tr:nth-child(2n) {
+    background-color: #f2f3f9;
+}
+.prizeSet .tr > .td {
+    text-align: center;
+    height: 80rpx;
+    line-height: 80rpx;
+}
+.prizeSet .tr > .td:nth-child(1) {
+    width: 25%;
+}
+.prizeSet .tr > .td:nth-child(2) {
+    width: 50%;
+}
+.prizeSet .tr > .td:nth-child(3) {
+    width: 25%;
+}
+.prizeSet .theader > .tr {
+  background-color: #f2f3f9;
+  font-size: 32rpx;
+  color: #333;
+}
+

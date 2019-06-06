@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "开奖",
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control",
+    "zzr-list": "/components/zzr-list",
+    "zzr3d-list": "/components/zzr-list-3d"
+  }
+}

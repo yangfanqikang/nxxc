@@ -1,0 +1,1 @@
+<view id="news-detail" bind:__l="__l"><view id="news-title">{{''+post_title+''}}</view><view id="news_info"><text>{{"来源:"+post_source}}</text><text>{{"时间:"+post_date}}</text></view><image src="{{thumb}}" mode="widthFix" id="news-img"></image><rich-text nodes="{{content}}"></rich-text><view id="news-company">宁夏彩票</view></view>

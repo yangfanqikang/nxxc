@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "组六",
+  "usingComponents": {
+    "bet-info": "/components/bet-info"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/tabBar/home/home",
+    "pages/tabBar/prize/prize",
+    "pages/tabBar/siteMap/siteMap",
+    "pages/tabBar/mine/mine",
+    "pages/tabBar/siteMap/detailMap/detailMap",
+    "pages/tabBar/prize/ssqDetail/ssqDetail",
+    "pages/tabBar/prize/fc3dDetail/fc3dDetail",
+    "pages/tabBar/prize/qlcDetail/qlcDetail",
+    "pages/tabBar/home/newsDetail/newsDetail",
+    "pages/tabBar/home/ssqBet/ssqBet",
+    "pages/tabBar/home/fc3dBet/fc3dBet",
+    "pages/tabBar/home/k3Bet/k3Bet",
+    "pages/tabBar/home/qlcBet/qlcBet",
+    "pages/tabBar/home/order/order",
+    "pages/tabBar/home/fc3dBet/zhixuan/zhixuan",
+    "pages/tabBar/home/fc3dBet/zusan/zusan",
+    "pages/tabBar/home/fc3dBet/zuliu/zuliu",
+    "pages/tabBar/home/pay/pay",
+    "pages/tabBar/home/pay/success/success"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#DC504E",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/home/home",
+        "iconPath": "static/icon_tab_home_normal.png",
+        "selectedIconPath": "static/icon_tab_home_hl.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/prize/prize",
+        "iconPath": "static/icon_tab_prize_normal.png",
+        "selectedIconPath": "static/icon_tab_prize_hl.png",
+        "text": "开奖"
+      },
+      {
+        "pagePath": "pages/tabBar/siteMap/siteMap",
+        "iconPath": "static/icon_tab_map_normal.png",
+        "selectedIconPath": "static/icon_tab_map_hl.png",
+        "text": "站点"
+      },
+      {
+        "pagePath": "pages/tabBar/mine/mine",
+        "iconPath": "static/icon_tab_mine_normal.png",
+        "selectedIconPath": "static/icon_tab_mine_hl.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "使用"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

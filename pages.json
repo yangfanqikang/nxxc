@@ -1,0 +1,157 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabBar/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/tabBar/prize/prize",
+			"style": {
+				"navigationBarTitleText": "开奖"
+			}
+		},
+		{
+			"path": "pages/tabBar/siteMap/siteMap",
+			"style": {
+				"navigationBarTitleText": "站点"
+			}
+		},
+		{
+			"path": "pages/tabBar/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+        ,{
+            "path" : "pages/tabBar/siteMap/detailMap/detailMap",
+            "style": {
+            	"navigationBarTitleText": "导航路线"
+            }
+        }
+        ,{
+            "path" : "pages/tabBar/prize/ssqDetail/ssqDetail",
+            "style" : {
+				"navigationBarTitleText": "双色球详情"
+			}
+        }
+        ,{
+            "path" : "pages/tabBar/prize/fc3dDetail/fc3dDetail",
+            "style" : {
+				"navigationBarTitleText": "福彩3D详情"
+			}
+        }
+        ,{
+            "path" : "pages/tabBar/prize/qlcDetail/qlcDetail",
+            "style" : {
+				"navigationBarTitleText": "七乐彩详情"
+			}
+        }
+        ,{
+            "path" : "pages/tabBar/home/newsDetail/newsDetail",
+            "style" : {
+				"navigationBarTitleText": "资讯详情"
+			}
+        }
+        ,{
+            "path" : "pages/tabBar/home/ssqBet/ssqBet",
+            "style" : {
+				"navigationBarTitleText": "双色球"
+			}
+        }
+        ,{
+            "path" : "pages/tabBar/home/fc3dBet/fc3dBet",
+            "style" : {
+				"navigationBarTitleText": "福彩3D"
+			}
+        }
+        ,{
+            "path" : "pages/tabBar/home/k3Bet/k3Bet",
+            "style" : {
+				"navigationBarTitleText": "快3"
+			}
+        }
+        ,{
+            "path" : "pages/tabBar/home/qlcBet/qlcBet",
+            "style" : {
+				"navigationBarTitleText": "七乐彩"
+			}
+        }
+        ,{
+            "path" : "pages/tabBar/home/order/order",
+            "style" : {
+				"navigationBarTitleText": "订单确认"
+			}
+        }
+        ,{
+            "path" : "pages/tabBar/home/fc3dBet/zhixuan/zhixuan",
+            "style" : {
+				"navigationBarTitleText": "直选"
+			}
+        }
+        ,{
+            "path" : "pages/tabBar/home/fc3dBet/zusan/zusan",
+            "style" : {
+				"navigationBarTitleText": "组三"
+			}
+        }
+        ,{
+            "path" : "pages/tabBar/home/fc3dBet/zuliu/zuliu",
+            "style" : {
+				"navigationBarTitleText": "组六"
+			}
+        }
+        ,{
+            "path" : "pages/tabBar/home/pay/pay",
+            "style" : {
+				"navigationBarTitleText": "支付"
+			}
+        }
+        ,{
+            "path" : "pages/tabBar/home/pay/success/success",
+            "style" : {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "支付"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar" : {
+	    "color" : "#7A7E83",
+	    "selectedColor" : "#DC504E",
+	    "borderStyle" : "black",
+	    "backgroundColor" : "#ffffff",
+	    "list" : [
+	        {
+	            "pagePath" : "pages/tabBar/home/home",
+	            "iconPath" : "static/icon_tab_home_normal.png",
+	            "selectedIconPath" : "static/icon_tab_home_hl.png",
+	            "text" : "首页"
+	        },
+	        {
+	            "pagePath" : "pages/tabBar/prize/prize",
+	            "iconPath" : "static/icon_tab_prize_normal.png",
+	            "selectedIconPath" : "static/icon_tab_prize_hl.png",
+	            "text" : "开奖"
+	        },
+	        {
+	            "pagePath" : "pages/tabBar/siteMap/siteMap",
+	            "iconPath" : "static/icon_tab_map_normal.png",
+	            "selectedIconPath" : "static/icon_tab_map_hl.png",
+	            "text" : "站点"
+	        },
+	        {
+	            "pagePath" : "pages/tabBar/mine/mine",
+	            "iconPath" : "static/icon_tab_mine_normal.png",
+	            "selectedIconPath" : "static/icon_tab_mine_hl.png",
+	            "text" : "我的"
+	        }
+	    ]
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "直选",
+  "usingComponents": {
+    "bet-info": "/components/bet-info"
+  }
+}
